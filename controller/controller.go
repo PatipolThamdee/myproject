@@ -3,9 +3,10 @@ package controller
 import (
 	"encoding/json"
 	"fmt"
-	"myproject/common"
-	"myproject/model"
 	"net/http"
+
+	"github.com/PatipolThamdee/myproject/common"
+	"github.com/PatipolThamdee/myproject/model"
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/gorilla/context"

@@ -1,7 +1,7 @@
 package model
 
 import (
-	"myproject/common"
+	"github.com/PatipolThamdee/myproject/common"
 
 	jwt "github.com/dgrijalva/jwt-go"
 )

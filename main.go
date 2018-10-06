@@ -7,8 +7,9 @@ package main
 import (
 	"fmt"
 	"log"
-	route "myproject/router/routes"
 	"net/http"
+
+	route "github.com/PatipolThamdee/myproject/router/routes"
 
 	"github.com/gorilla/mux"
 	"google.golang.org/appengine"

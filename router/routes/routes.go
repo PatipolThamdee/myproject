@@ -2,8 +2,9 @@ package routes
 
 import (
 	"fmt"
-	ctrl "myproject/controller"
-	"myproject/middleware"
+
+	ctrl "github.com/PatipolThamdee/myproject/controller"
+	"github.com/PatipolThamdee/myproject/middleware"
 
 	"github.com/gorilla/mux"
 )
